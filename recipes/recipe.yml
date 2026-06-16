@@ -12,7 +12,7 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - copr:copr.fedorainfracloud.org/lionheartp/Hyprland
+      - https://copr.fedorainfracloud.org/coprs/lionheartp/Hyprland/repo/fedora-%OS_VERSION%/lionheartp-Hyprland-fedora-%OS_VERSION%.repo 
     install:
       - niri
       - noctalia-git
